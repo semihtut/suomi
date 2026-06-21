@@ -568,5 +568,461 @@ window.CARDS = [
       {k:"uskoa jhk", v:"`to believe in` **takes the illative**: `itseesi` (‘in yourself’). Note: `uskoa` + partitive = to believe *that* something is true."},
       {k:"pärjätä", v:"`to manage / do fine` — `sä pärjäät` (spoken `sinä`)."},
       {k:"kirjakieli", v:"written: `Usko itseesi, kyllä sinä pärjäät.`"}
+    ]},
+
+  /* ---------- LISÄKORTIT / EXTRA BATCH (61–110) ---------- */
+
+  /* ---- BAĞLAÇLAR / CONJUNCTIONS ---- */
+  { id:61, category:"conjunction", level:"A2", register:"kirja",
+    fi:"Jos sataa, jään kotiin.",
+    en:"If it rains, I'll stay home.",
+    grammar:"`jos` = **if** — the basic conditional conjunction.",
+    parts:[
+      {k:"jos", v:"`if` — opens a condition. A comma separates the clauses."},
+      {k:"sataa", v:"`it rains` — a weather verb used with **no subject**."},
+      {k:"jään kotiin", v:"`I stay home` — `jäädä` + illative `kotiin` (direction ‘to/at home’)."}
+    ]},
+  { id:62, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Menen ulos, vaikka sataa.",
+    en:"I'm going out even though it's raining.",
+    grammar:"`vaikka` = **even though / although** — a concessive conjunction.",
+    parts:[
+      {k:"vaikka", v:"`even though` — concedes a contrast. With the conditional it means `even if`."},
+      {k:"menen ulos", v:"`I go out` — `mennä` + adverb `ulos` (direction ‘out’)."},
+      {k:"sataa", v:"`it rains` — weather verb, subjectless."}
+    ]},
+  { id:63, category:"conjunction", level:"A2", register:"kirja",
+    fi:"Haluaisin tulla, mutta minulla ei ole aikaa.",
+    en:"I'd like to come, but I don't have time.",
+    grammar:"`mutta` = **but** — contrasts two main clauses.",
+    parts:[
+      {k:"mutta", v:"`but` — joins two equal clauses that contrast."},
+      {k:"minulla ei ole aikaa", v:"`I don't have time` — adessive `minulla` + negative `ei ole` + **partitive** `aikaa` (negation forces partitive)."},
+      {k:"haluaisin", v:"`I would like` — conditional of `haluta`, politer than `haluan`."}
+    ]},
+  { id:64, category:"conjunction", level:"A2", register:"kirja",
+    fi:"Kun olin lapsi, asuin maalla.",
+    en:"When I was a child, I lived in the countryside.",
+    grammar:"`kun` = **when** — for a specific time or past event (not for questions).",
+    parts:[
+      {k:"kun", v:"`when` — temporal. Use `kun` in statements; `milloin` for the question ‘when?’."},
+      {k:"olin lapsi", v:"`I was a child` — past of `olla`; predicate noun in nominative."},
+      {k:"maalla", v:"`in the countryside` — adessive of `maa`."}
+    ]},
+  { id:65, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Säästän rahaa, jotta voin matkustaa.",
+    en:"I'm saving money so that I can travel.",
+    grammar:"`jotta` = **so that / in order that** — expresses purpose.",
+    parts:[
+      {k:"jotta", v:"`so that` — introduces a purpose clause."},
+      {k:"säästän rahaa", v:"`I save money` — `säästää` + **partitive** `rahaa` (an unspecified amount)."},
+      {k:"voin matkustaa", v:"`I can travel` — `voida` + the basic infinitive `matkustaa`."}
+    ]},
+  { id:66, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Odota tässä, kunnes palaan.",
+    en:"Wait here until I come back.",
+    grammar:"`kunnes` = **until** — marks the end point of an action in time.",
+    parts:[
+      {k:"kunnes", v:"`until` — the action lasts up to the moment in the sub-clause."},
+      {k:"odota", v:"`wait` — 2nd person singular imperative of `odottaa`."},
+      {k:"palaan", v:"`I return` — `palata` (type-4 verb): `pala-ta` → `pala-an`."}
+    ]},
+  { id:67, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Otan sateenvarjon, sillä taivas on pilvinen.",
+    en:"I'll take an umbrella, for the sky is cloudy.",
+    grammar:"`sillä` = **for / because** — gives a reason; it cannot start the sentence.",
+    parts:[
+      {k:"sillä", v:"`for/because` — like `koska` but coordinating; always mid-sentence."},
+      {k:"sateenvarjon", v:"`umbrella` — **accusative** (total object): the whole umbrella is taken."},
+      {k:"pilvinen", v:"`cloudy` — adjective formed with `-inen` from `pilvi` (‘cloud’)."}
+    ]},
+  { id:68, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Hän on isäni veli eli setäni.",
+    en:"He is my father's brother, that is, my uncle.",
+    grammar:"`eli` = **that is / in other words** — links two names for the same thing.",
+    parts:[
+      {k:"eli", v:"`i.e. / or` — restates something more precisely. (Unlike `tai` = a real alternative.)"},
+      {k:"isäni veli", v:"`my father's brother` — `isä` + possessive `-ni`; `veli` = brother."},
+      {k:"setä", v:"`paternal uncle` (father's brother). A mother's brother is `eno`."}
+    ]},
+  { id:69, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Tee kuten haluat.",
+    en:"Do as you wish.",
+    grammar:"`kuten` = **as / like / the way** — compares to a manner.",
+    parts:[
+      {k:"kuten", v:"`as / the way` — introduces how something is done. More written than `niin kuin`."},
+      {k:"tee", v:"`do` — irregular imperative of `tehdä`."},
+      {k:"haluat", v:"`you want` — `haluta`, 2nd person singular."}
+    ]},
+  { id:70, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Pese kädet ennen kuin syöt.",
+    en:"Wash your hands before you eat.",
+    grammar:"`ennen kuin` = **before** when followed by a clause.",
+    parts:[
+      {k:"ennen kuin", v:"`before` + a verb/clause. Before a **noun** use `ennen` + partitive (`ennen ruokaa`)."},
+      {k:"pese kädet", v:"`wash your hands` — imperative `pese` (from `pestä`) + plural object `kädet`."},
+      {k:"syöt", v:"`you eat` — `syödä`, 2nd person singular."}
+    ]},
+  { id:71, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Voit ottaa joko teetä tai kahvia.",
+    en:"You can have either tea or coffee.",
+    grammar:"`joko … tai` = **either … or** — a paired conjunction.",
+    parts:[
+      {k:"joko … tai", v:"`either … or` — `joko` flags the first option, `tai` the second."},
+      {k:"teetä, kahvia", v:"**partitive** of `tee` and `kahvi` — an unspecified amount of a drink."},
+      {k:"voit ottaa", v:"`you can take` — `voida` + infinitive `ottaa`."}
+    ]},
+  { id:72, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Pidän sekä kahvista että teestä.",
+    en:"I like both coffee and tea.",
+    grammar:"`sekä … että` = **both … and**; note `pitää` + **elative**.",
+    parts:[
+      {k:"sekä … että", v:"`both … and` — a fixed pair. (For plain ‘and’ between nouns, use `ja`.)"},
+      {k:"pitää jstk", v:"`to like` **takes the elative** (`-sta/-stä`): `kahvista`, `teestä`."}
+    ]},
+  { id:73, category:"conjunction", level:"B1", register:"kirja",
+    fi:"Tulen niin pian kuin voin.",
+    en:"I'll come as soon as I can.",
+    grammar:"`niin … kuin` = **as … as** — compares to an equal degree.",
+    parts:[
+      {k:"niin pian kuin", v:"`as soon as` — `niin` + adverb + `kuin`."},
+      {k:"voin", v:"`I can` — `voida`, 1st person singular (`voi-n`)."}
+    ]},
+  { id:74, category:"conjunction", level:"B2", register:"kirja",
+    fi:"Puhu hiljaa, ettet herätä vauvaa.",
+    en:"Speak quietly so that you don't wake the baby.",
+    grammar:"`ettei` = `että` + `ei` — a **negative** purpose clause; it inflects by person.",
+    parts:[
+      {k:"ettet", v:"`so that you don't` — `että` + 2nd person negative `et`. (1st: `etten`, 3rd: `ettei`.)"},
+      {k:"herätä", v:"connegative of `herättää` (‘to wake someone’): `et herätä` = ‘you don't wake’."},
+      {k:"vauvaa", v:"**partitive** object under negation (`herättää vauva` → `et herätä vauvaa`)."}
+    ]},
+
+  /* ---- GÜNLÜK / DAILY ---- */
+  { id:75, category:"daily", level:"A2", register:"puhe",
+    fi:"Mitä kuuluu?",
+    en:"How are you? (lit. what is heard?)",
+    grammar:"Standard greeting using `kuulua` (‘to be heard / to be the news’).",
+    parts:[
+      {k:"mitä", v:"`what` — **partitive** of `mikä`, required by `kuulua` here."},
+      {k:"kuuluu", v:"`is heard / how are things` — `kuulua`, 3rd person singular."},
+      {k:"vastaus", v:"a common reply: `Kiitos hyvää.` (‘Fine, thanks.’)"}
+    ]},
+  { id:76, category:"daily", level:"A2", register:"kirja",
+    fi:"Voisitko auttaa minua?",
+    en:"Could you help me?",
+    grammar:"Polite request with the conditional; `auttaa` + **partitive**.",
+    parts:[
+      {k:"voisitko", v:"`could you` — conditional `voisit` + question `-ko`. Politer than `voitko`."},
+      {k:"auttaa jkta", v:"`to help` **takes the partitive**: `minua` (‘me’)."}
+    ]},
+  { id:77, category:"daily", level:"A2", register:"puhe",
+    fi:"Mä en tiiä.",
+    en:"I don't know.",
+    grammar:"Spoken negative; `tiiä` is the colloquial form of `tiedä`.",
+    parts:[
+      {k:"mä", v:"spoken `minä` (‘I’)."},
+      {k:"en tiiä", v:"`I don't know` — negative `en` + connegative. Spoken `tiiä` ← written `tiedä`."},
+      {k:"kirjakieli", v:"written: `(Minä) en tiedä.`"}
+    ]},
+  { id:78, category:"daily", level:"A2", register:"kirja",
+    fi:"Paljonko tämä maksaa?",
+    en:"How much does this cost?",
+    grammar:"Shopping question with `paljonko` (‘how much’).",
+    parts:[
+      {k:"paljonko", v:"`how much` — `paljon` + `-ko`."},
+      {k:"maksaa", v:"`to cost / to pay` — here 3rd person ‘costs’."},
+      {k:"tämä", v:"`this` — nominative demonstrative."}
+    ]},
+  { id:79, category:"daily", level:"B1", register:"kirja",
+    fi:"Anteeksi, voitteko toistaa?",
+    en:"Excuse me, could you repeat that?",
+    grammar:"Polite/formal request using the `te`-form `voitteko`.",
+    parts:[
+      {k:"voitteko", v:"`can you` — 2nd person **plural/formal** (`te`) + `-ko`."},
+      {k:"toistaa", v:"`to repeat` — basic infinitive after `voida`."},
+      {k:"anteeksi", v:"`excuse me / sorry` — fixed politeness word."}
+    ]},
+  { id:80, category:"daily", level:"A2", register:"puhe",
+    fi:"Nähdään huomenna!",
+    en:"See you tomorrow!",
+    grammar:"The passive `nähdään` is used colloquially for **‘see you / let's meet’**.",
+    parts:[
+      {k:"nähdään", v:"passive of `nähdä` (‘is seen’), idiomatically ‘(we'll) see each other’."},
+      {k:"huomenna", v:"`tomorrow` — essive-form time adverb."},
+      {k:"kirjakieli", v:"formal goodbye: `Näkemiin.`"}
+    ]},
+  { id:81, category:"daily", level:"B1", register:"puhe",
+    fi:"Mennäänkö kahville?",
+    en:"Shall we go for a coffee?",
+    grammar:"The passive as a **‘shall we…?’** suggestion; `kahville` = allative.",
+    parts:[
+      {k:"mennäänkö", v:"passive `mennään` (‘one goes / let's go’) + `-kö` = ‘shall we go?’."},
+      {k:"kahville", v:"`for coffee` — allative of `kahvi`; Finnish ‘goes onto coffee’ for a coffee outing."},
+      {k:"kirjakieli", v:"more neutral: `Menemmekö kahville?`"}
+    ]},
+  { id:82, category:"daily", level:"A2", register:"kirja",
+    fi:"Minulla on nälkä.",
+    en:"I'm hungry.",
+    grammar:"States a feeling with `minulla on` + noun (Finnish ‘has hunger’).",
+    parts:[
+      {k:"minulla on", v:"`I have` — adessive `minulla` + `on`. Finnish expresses states this way."},
+      {k:"nälkä", v:"`hunger` — `olla nälkä` = to be hungry. Thirst = `jano`."}
+    ]},
+  { id:83, category:"daily", level:"A2", register:"kirja",
+    fi:"Saanko laskun, kiitos?",
+    en:"Can I have the bill, please?",
+    grammar:"Restaurant request; `saada` (‘to get’) + accusative object.",
+    parts:[
+      {k:"saanko", v:"`may I get` — `saada`, 1st person + `-ko`."},
+      {k:"laskun", v:"`the bill` — **accusative** (total object): the whole bill."},
+      {k:"kiitos", v:"`please / thank you` — also softens the request."}
+    ]},
+  { id:84, category:"daily", level:"B1", register:"kirja",
+    fi:"Voitko sanoa, missä asema on?",
+    en:"Can you tell me where the station is?",
+    grammar:"An **embedded question** with `missä` keeps statement word order.",
+    parts:[
+      {k:"missä asema on", v:"`where the station is` — the verb `on` stays at the end (no inversion)."},
+      {k:"missä", v:"`where` — inessive question word (‘in what place’)."},
+      {k:"voitko sanoa", v:"`can you say/tell` — `voida` + infinitive `sanoa`."}
+    ]},
+  { id:85, category:"daily", level:"A2", register:"puhe",
+    fi:"Ei se mitään.",
+    en:"It's nothing / no worries.",
+    grammar:"Fixed reassurance phrase answering an apology or thanks.",
+    parts:[
+      {k:"ei … mitään", v:"`nothing` — negative `ei` paired with **partitive** `mitään`."},
+      {k:"se", v:"`it` — dummy subject here."},
+      {k:"käyttö", v:"reply to `Anteeksi` (‘sorry’): `Ei se mitään.` = ‘It's fine.’"}
+    ]},
+  { id:86, category:"daily", level:"B1", register:"kirja",
+    fi:"Olen pahoillani myöhästymisestä.",
+    en:"I'm sorry for being late.",
+    grammar:"`olla pahoillaan` = to be sorry; the cause takes the **elative**.",
+    parts:[
+      {k:"pahoillani", v:"`sorry` — fixed expression `olla pahoillaan` with possessive (`-ni` = my)."},
+      {k:"myöhästymisestä", v:"`for the lateness` — **elative** `-stä` of `myöhästyminen` (the reason)."}
+    ]},
+  { id:87, category:"daily", level:"B1", register:"kirja",
+    fi:"Sopiiko sinulle huomenna?",
+    en:"Does tomorrow work for you?",
+    grammar:"`sopia` (‘to suit’) + **allative** for the person.",
+    parts:[
+      {k:"sopiiko", v:"`does it suit` — `sopia`, 3rd person + `-ko`."},
+      {k:"sinulle", v:"`for you` — **allative**; `sopia` marks the person it suits with `-lle`."},
+      {k:"huomenna", v:"`tomorrow` — time adverb (essive form)."}
+    ]},
+
+  /* ---- DEYİMLER / IDIOMS ---- */
+  { id:88, category:"idiom", level:"B2", register:"puhe",
+    fi:"Nyt on pakko panna hanskat naulaan.",
+    en:"Now I have to hang up the gloves (give up / quit).",
+    grammar:"Idiom `panna hanskat naulaan` = **to give up / quit for good**.",
+    parts:[
+      {k:"panna hanskat naulaan", v:"lit. ‘put the gloves on the nail’ → **to give up / call it quits**."},
+      {k:"on pakko", v:"`have to / must` — `on pakko` + infinitive expresses necessity."},
+      {k:"naulaan", v:"`onto the nail` — illative of `naula`."}
+    ]},
+  { id:89, category:"idiom", level:"B2", register:"puhe",
+    fi:"Älä vedä hernettä nenään tällaisesta.",
+    en:"Don't take offense over something like this.",
+    grammar:"Idiom `vetää herne nenään` = **to take offense / get in a huff**.",
+    parts:[
+      {k:"vetää herne nenään", v:"lit. ‘pull a pea up the nose’ → **to get offended/sulky**."},
+      {k:"hernettä", v:"**partitive** `hernettä` under the negative imperative `älä vedä`."},
+      {k:"tällaisesta", v:"`over something like this` — elative of `tällainen`."}
+    ]},
+  { id:90, category:"idiom", level:"B2", register:"puhe",
+    fi:"Arvaus meni täysin metsään.",
+    en:"The guess was completely off.",
+    grammar:"Idiom `mennä metsään` = **to go badly wrong / miss completely**.",
+    parts:[
+      {k:"mennä metsään", v:"lit. ‘go into the forest’ → **to fail / be way off**."},
+      {k:"metsään", v:"`into the forest` — illative of `metsä`."},
+      {k:"täysin", v:"`completely` — intensifying adverb."}
+    ]},
+  { id:91, category:"idiom", level:"B2", register:"puhe",
+    fi:"Kotona kaikki sujuu kuin Strömsössä.",
+    en:"At home everything goes perfectly (like in Strömsö).",
+    grammar:"Cultural idiom `kuin Strömsössä` = **picture-perfect / idyllic**.",
+    parts:[
+      {k:"kuin Strömsössä", v:"refers to the cozy TV show *Strömsö*; means ‘ideal, just like on TV’ (often ironic)."},
+      {k:"sujua", v:"`to go smoothly` — `kaikki sujuu` = ‘everything runs well’."},
+      {k:"Strömsössä", v:"inessive of the place name (‘in Strömsö’)."}
+    ]},
+  { id:92, category:"idiom", level:"B2", register:"puhe",
+    fi:"Tällainen juhliminen ei ole minun heiniäni.",
+    en:"This kind of partying isn't my thing.",
+    grammar:"Idiom `olla jonkun heiniä` = **to be someone's cup of tea** (usually negated).",
+    parts:[
+      {k:"ei ole minun heiniäni", v:"lit. ‘is not my hay’ → ‘is not my thing’."},
+      {k:"heiniäni", v:"**partitive plural** `heiniä` + possessive `-ni` (‘my hay’)."},
+      {k:"juhliminen", v:"`partying` — a verbal noun from `juhlia`."}
+    ]},
+  { id:93, category:"idiom", level:"B2", register:"puhe",
+    fi:"Juoksin koko päivän pää kolmantena jalkana.",
+    en:"I ran around like crazy all day.",
+    grammar:"Idiom `pää kolmantena jalkana` = **frantically busy / rushing about**.",
+    parts:[
+      {k:"pää kolmantena jalkana", v:"lit. ‘head as a third leg’ → rushing about frantically. `kolmantena` = essive (‘as the third’)."},
+      {k:"juoksin", v:"`I ran` — past tense of `juosta`."},
+      {k:"koko päivän", v:"`all day` — **accusative** of duration."}
+    ]},
+  { id:94, category:"idiom", level:"B1", register:"kirja",
+    fi:"Vieras tunsi olonsa kuin kotonaan.",
+    en:"The guest felt right at home.",
+    grammar:"Idiom `tuntea olonsa kuin kotonaan` = **to feel at home**.",
+    parts:[
+      {k:"kuin kotonaan", v:"`like at home` — `kuin` + locative `kotona` + reflexive possessive `-an`."},
+      {k:"tuntea olonsa", v:"`to feel (one's state)` — fixed phrase, here completed by `kuin kotonaan`."},
+      {k:"vieras", v:"`guest / stranger` — nominative subject."}
+    ]},
+  { id:95, category:"idiom", level:"B1", register:"puhe",
+    fi:"Pidän sinulle peukkuja kokeessa.",
+    en:"I'll keep my fingers crossed for you in the exam.",
+    grammar:"Idiom `pitää peukkuja` = **to keep one's fingers crossed**.",
+    parts:[
+      {k:"pitää peukkuja", v:"lit. ‘hold thumbs’ → to wish someone luck. `peukkuja` = partitive plural of `peukku`."},
+      {k:"sinulle", v:"`for you` — allative marks who you're rooting for."},
+      {k:"kokeessa", v:"`in the exam` — inessive of `koe`."}
+    ]},
+  { id:96, category:"idiom", level:"B2", register:"puhe",
+    fi:"Vanha koira heitti lusikan nurkkaan viime talvena.",
+    en:"The old dog kicked the bucket last winter.",
+    grammar:"Idiom `heittää lusikka nurkkaan` = **to kick the bucket (to die)**.",
+    parts:[
+      {k:"heittää lusikka nurkkaan", v:"lit. ‘throw the spoon into the corner’ → **to die**. Informal."},
+      {k:"lusikan", v:"**accusative** (total object) — the whole spoon is thrown."},
+      {k:"viime talvena", v:"`last winter` — `viime` + essive `talvena`."}
+    ]},
+  { id:97, category:"idiom", level:"B2", register:"puhe",
+    fi:"Ulkona sataa kuin saavista kaataen.",
+    en:"It's pouring rain outside (raining buckets).",
+    grammar:"Idiom `sataa kuin saavista kaataen` = **to rain extremely hard**.",
+    parts:[
+      {k:"sataa kuin saavista kaataen", v:"lit. ‘rains as if poured from a tub’ → ‘pouring down’."},
+      {k:"saavista", v:"`from a tub` — elative of `saavi`."},
+      {k:"kaataen", v:"`pouring` — instructive of the 2nd infinitive (manner)."}
+    ]},
+  { id:98, category:"idiom", level:"B2", register:"kirja",
+    fi:"Palkka ei ole minulle kynnyskysymys.",
+    en:"Salary isn't a dealbreaker for me.",
+    grammar:"`kynnyskysymys` = **a make-or-break issue / dealbreaker**.",
+    parts:[
+      {k:"kynnyskysymys", v:"lit. ‘threshold question’ → a condition that decides yes/no."},
+      {k:"minulle", v:"`for me` — allative of the person concerned."},
+      {k:"palkka", v:"`salary / pay` — nominative subject."}
+    ]},
+  { id:99, category:"idiom", level:"B1", register:"puhe",
+    fi:"Suunnitelma meni täysin pieleen.",
+    en:"The plan went completely wrong.",
+    grammar:"Idiom `mennä pieleen` = **to go wrong / fail**.",
+    parts:[
+      {k:"mennä pieleen", v:"`to go wrong` — `pieleen` (illative of `pieli`) appears only in this idiom."},
+      {k:"meni", v:"`went` — past tense of `mennä`, 3rd person."},
+      {k:"suunnitelma", v:"`plan` — nominative subject."}
+    ]},
+
+  /* ---- ATASÖZLERİ / PROVERBS ---- */
+  { id:100, category:"proverb", level:"B2", register:"kirja",
+    fi:"Ei oppi ojaan kaada.",
+    en:"Learning never hurts (lit. knowledge won't tip you into a ditch).",
+    grammar:"Proverb praising learning; note the **poetic word order** (verb last).",
+    parts:[
+      {k:"oppi", v:"`learning / knowledge` — nominative subject."},
+      {k:"ojaan", v:"`into the ditch` — illative of `oja`."},
+      {k:"ei … kaada", v:"`does not tip (you) over` — negative of `kaataa`; order is stylistic."}
+    ]},
+  { id:101, category:"proverb", level:"B1", register:"kirja",
+    fi:"Aamu on iltaa viisaampi.",
+    en:"Morning is wiser than evening (sleep on it).",
+    grammar:"Proverb showing the **comparative** + partitive of comparison.",
+    parts:[
+      {k:"viisaampi", v:"`wiser` — comparative of `viisas` (`-mpi`)."},
+      {k:"iltaa", v:"`than evening` — the compared noun takes the **partitive** (`ilta` → `iltaa`)."},
+      {k:"merkitys", v:"advice to postpone decisions until morning."}
+    ]},
+  { id:102, category:"proverb", level:"B2", register:"kirja",
+    fi:"Joka kuuseen kurkottaa, se katajaan kapsahtaa.",
+    en:"He who reaches for the spruce falls onto the juniper (overreaching backfires).",
+    grammar:"`joka … se …` = **‘the one who …, that one …’** relative construction.",
+    parts:[
+      {k:"joka … se", v:"`whoever …, (that one) …` — `joka` opens the relative clause, `se` resumes it."},
+      {k:"kurkottaa jhk", v:"`to reach for` + **illative**: `kuuseen` (‘into the spruce’)."},
+      {k:"kapsahtaa", v:"`to plop/fall` — onto `katajaan` (illative of `kataja`, ‘juniper’)."}
+    ]},
+  { id:103, category:"proverb", level:"B1", register:"kirja",
+    fi:"Ei savua ilman tulta.",
+    en:"No smoke without fire.",
+    grammar:"Proverb; `ilman` + **partitive**.",
+    parts:[
+      {k:"ilman tulta", v:"`without fire` — `ilman` always **takes the partitive** (`tuli` → `tulta`)."},
+      {k:"savua", v:"`smoke` — **partitive** in this negative existential (`ei (ole) savua`)."}
+    ]},
+  { id:104, category:"proverb", level:"B2", register:"kirja",
+    fi:"Hätä keinot keksii.",
+    en:"Necessity is the mother of invention.",
+    grammar:"Proverb with **poetic word order** (object before verb).",
+    parts:[
+      {k:"hätä", v:"`distress / emergency` — nominative subject."},
+      {k:"keinot", v:"`the means/ways` — total object (plural nominative form), fronted for effect."},
+      {k:"keksii", v:"`invents / finds` — `keksiä`, 3rd person singular (agrees with `hätä`)."}
+    ]},
+  { id:105, category:"proverb", level:"B2", register:"kirja",
+    fi:"Minkä taakseen jättää, sen edestään löytää.",
+    en:"What you leave behind, you'll find ahead of you (your deeds catch up with you).",
+    grammar:"`minkä … sen …` relative pair; reflexive possessive `-en`.",
+    parts:[
+      {k:"minkä … sen", v:"`what …, that …` — accusative relative `minkä` answered by `sen`."},
+      {k:"taakseen", v:"`behind oneself` — directional, with the reflexive possessive `-en`."},
+      {k:"edestään", v:"`from in front of oneself` — likewise reflexive; pairs with `taakseen`."}
+    ]},
+
+  /* ---- SÖZ / KÜLTÜR — QUOTES ---- */
+  { id:106, category:"quote", level:"B1", register:"kirja",
+    fi:"Pienistä puroista syntyy suuri joki.",
+    en:"From small streams a great river is born.",
+    grammar:"Cultural saying; the source/origin takes the **elative**.",
+    parts:[
+      {k:"pienistä puroista", v:"`from small streams` — **elative plural** of `pieni puro`."},
+      {k:"syntyy", v:"`is born / comes into being` — `syntyä`, 3rd person."},
+      {k:"suuri joki", v:"`a great river` — nominative subject of `syntyä`."}
+    ]},
+  { id:107, category:"quote", level:"B2", register:"kirja",
+    fi:"Onni ei tule etsien, vaan eläen.",
+    en:"Happiness doesn't come by seeking, but by living.",
+    grammar:"Motivational saying using the **instructive of the 2nd infinitive** (‘by doing’).",
+    parts:[
+      {k:"etsien, eläen", v:"`by seeking / by living` — the 2nd-infinitive instructive expresses ‘by V-ing’."},
+      {k:"vaan", v:"`but rather` — corrects the negated clause (not `mutta`)."},
+      {k:"onni", v:"`happiness / luck` — nominative subject."}
+    ]},
+  { id:108, category:"quote", level:"B2", register:"kirja",
+    fi:"Rohkeus ei ole pelon puutetta vaan sen voittamista.",
+    en:"Courage is not the absence of fear but the overcoming of it.",
+    grammar:"Definition-style sentence; predicate nouns in the **partitive**.",
+    parts:[
+      {k:"pelon puutetta", v:"`the absence of fear` — genitive `pelon` + partitive `puutetta`."},
+      {k:"sen voittamista", v:"`overcoming it` — verbal noun `voittaminen` in the partitive."},
+      {k:"vaan", v:"`but rather` — used because the first clause is negated."}
+    ]},
+  { id:109, category:"quote", level:"B1", register:"puhe",
+    fi:"Kaikki järjestyy, älä huoli.",
+    en:"Everything will work out, don't worry.",
+    grammar:"Reassurance; `järjestyä` = ‘to sort itself out’.",
+    parts:[
+      {k:"kaikki järjestyy", v:"`everything works out` — `järjestyä`, 3rd person."},
+      {k:"älä huoli", v:"`don't worry` — negative imperative `älä` + connegative of `huolia`."},
+      {k:"kirjakieli", v:"the same form works in writing too."}
+    ]},
+  { id:110, category:"quote", level:"B2", register:"kirja",
+    fi:"Tieto lisää tuskaa, mutta myös ymmärrystä.",
+    en:"Knowledge increases sorrow, but also understanding.",
+    grammar:"`lisätä` (‘to add/increase’) takes a **partitive** object.",
+    parts:[
+      {k:"lisää tuskaa", v:"`increases sorrow` — `lisätä` + **partitive** `tuskaa`."},
+      {k:"ymmärrystä", v:"`understanding` — also partitive, a parallel object after `myös`."},
+      {k:"myös", v:"`also` — adds the second object."}
     ]}
 ];

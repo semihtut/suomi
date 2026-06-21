@@ -86,9 +86,16 @@
   .card.flipped{transform:rotateY(180deg)}
   .face{
     position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
-    background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);
-    -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+    background:transparent;border:1px solid var(--hair);border-radius:var(--r);
     box-shadow:var(--shadow), var(--glass-hi);display:flex;flex-direction:column;overflow:hidden;
+    isolation:isolate;
+  }
+  /* frosted glass on a child layer — a backdrop-filter on .face itself breaks
+     backface-visibility, letting the rear face bleed through mirrored */
+  .face::after{
+    content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;
+    background:var(--surface);
+    -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   }
   .face:focus-visible{outline:2px solid var(--lake);outline-offset:3px}
 
